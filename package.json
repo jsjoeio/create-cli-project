@@ -1,0 +1,25 @@
+{
+  "name": "@jsjoeio/create-project",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap my projects",
+  "main": "src/index.js",
+  "bin": {
+    "@jsjoeio/create-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "JavaScript Joe",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.22"
+  }
+}
